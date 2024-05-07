@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ADLaM Display';font-size: 20px;
+}
+
+header {
+    background-color: rgba(165, 42, 42, 0.2);
+    height: 50px;
+    margin-top: 26px;
+    border-radius: 30px;
+}
+nav {
+    background-color: rgba(165, 42, 42, 0.2);
+    display: flex;
+    width: 150px;
+    height: 580px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff0f0;
+    font-size: 33px;
+}
+p {
+    width: 300px;
+    color: #dad1d1;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 26px;
+}
+span {
+    background-color: rgba(165, 42, 42, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+.conteudo{
+    position: fixed;
+    bottom: 44px;
+    left: 172px;
+}
+
+.logo {
+    height: 150px;
+}
+
+.caixa-video {  
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+button {
+    color: black;
+    background-color: rgba(255, 240,240, 0.9);
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (max-width: 423px) {
+
+    p {
+        width: 190px;
+        text-align: center;
+        
+    }
+
+    nav {
+        margin-left: 10px;
+    }
+    
+    button {
+        margin-left: 43px;
+    }
+}
